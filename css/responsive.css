@@ -1,0 +1,166 @@
+    /* :start grid system */
+    
+    @media(min-width:576) {
+        /*small devices=> landscape phones*/
+        .container {
+            max-width: 540px;
+        }
+    }
+    
+    @media(min-width:768) {
+        /* medium  devices=> tablets*/
+        .container {
+            max-width: 720px;
+        }
+    }
+    
+    @media(min-width:992) {
+        /* desktops */
+        .container {
+            max-width: 960px;
+        }
+    }
+    
+    @media(min-width:1200) {
+        /* large screens */
+        .container {
+            max-width: 1140;
+        }
+    }
+    
+    @media(max-width:991px) {
+        .header-area .links {
+            display: none;
+        }
+        .header-area .links.open {
+            background-color: #fff;
+            /* padding: 10px; */
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 50px;
+            /* width: 66%; */
+            border-radius: 5px;
+            margin: 40px 20px;
+            font-size: 1.2em;
+        }
+        .header-area .links.open li {
+            display: block;
+            margin: 10px;
+            background: #fff;
+        }
+        .header-area .links.open li a {
+            color: var(--main--color);
+            font-weight: bold;
+        }
+        .header-area .toggle-menu {
+            display: inline-block;
+        }
+    }
+    
+    @media(max-width:575px) {
+        .introduction-text {
+            position: absolute;
+            left: 48%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            color: #ffff;
+            text-align: center;
+            width: 80%;
+            font-size: 14px;
+        }
+        .container .abut-us {
+            text-align: center;
+            display: block;
+            height: 60vh;
+        }
+        .abut-us .image-box,
+        .abut-us .image-box img {
+            float: none;
+        }
+        .skills .skill-box {
+            display: block;
+            text-align: center;
+        }
+        .skills .skill-box .skill-name {
+            width: 100%;
+        }
+    }
+    
+    @media(max-width:767px) {
+        .timeline .timline-content .left,
+        .timeline .timline-content .right {
+            width: 99%;
+            margin-bottom: 20px;
+            position: relative;
+            text-align: center;
+        }
+        .timeline .timline-content .left:before,
+        .timeline .timline-content .right:before,
+        .timeline .timline-content .left .content:before,
+        .timeline .timline-content .right .content:before {
+            display: none;
+        }
+    }
+    
+    @media (max-width:991px) {
+        .features .feat-box {
+            width: calc(100%/2);
+        }
+    }
+    
+    @media (max-width:575px) {
+        .features .feat-box {
+            width: calc(100%/1);
+        }
+    }
+    
+    @media (max-width:991px) {
+        .testimonials .ts-box {
+            width: calc(95%/2);
+        }
+        .testimonials .ts-box p {
+            font-size: 25px;
+        }
+        .testimonials .ts-box .person-info img {
+            /* float: left; */
+            width: 40%;
+        }
+    }
+    
+    @media (max-width:767px) {
+        .testimonials .ts-box {
+            width: calc(95%/2);
+        }
+        .testimonials .ts-box .person-info img {
+            /* float: left; */
+            width: 35%;
+        }
+        .testimonials .ts-box .person-info p {
+            font-size: 20px;
+        }
+    }
+    
+    @media (max-width:575px) {
+        .testimonials .ts-box {
+            width: calc(95%/1);
+        }
+        .testimonials .ts-box .person-info img {
+            float: left;
+            width: 30%;
+        }
+        .testimonials .ts-box .person-info p {
+            font-size: 20px;
+            margin: -10px;
+        }
+    }
+    
+    @media(max-width:767px) {
+        .contact form .left,
+        .contact form .right {
+            float: none;
+            width: 100%;
+        }
+    }
+    /* :end grid system */

@@ -1,0 +1,182 @@
+/*Switch Color*/
+
+#style-switcher h3 {
+    color: #fff;
+    font-size: 13px;
+    margin: 10px 0;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+#style-switcher {
+    background: #1a1c1d;
+    width: 205px;
+    position: fixed;
+    top: 145px;
+    z-index: 99999;
+    right: -205px;
+    border-radius: 0 0 4px 0;
+}
+
+#style-switcher ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 22px;
+}
+
+#style-switcher div {
+    padding: 6px 18px;
+}
+
+#style-switcher h2 {
+    background: #1a1c1d;
+    color: #fff;
+    font-size: 14px;
+    line-height: 46px;
+    padding: 0 20px 0 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+#style-switcher h2 a {
+    background-color: #1a1c1d;
+    display: block;
+    height: 46px;
+    position: absolute;
+    left: -46px;
+    top: 0;
+    width: 46px;
+    border-radius: 4px 0 0 4px;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+#style-switcher h2 a i {
+    position: relative;
+    top: 0;
+}
+
+.colors {
+    list-style: none;
+    margin: 0 0px 10px 0;
+    overflow: hidden;
+}
+
+.colors li {
+    float: left;
+    margin: 4px 2px 0 2px;
+}
+
+.colors li a {
+    display: block;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+div.layout-style {
+    padding: 0!important;
+}
+
+.layout-style select {
+    width: 164px;
+    padding: 7px;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 2px 0 25px 0px;
+    background-color: #505050;
+    border: 0;
+    min-height: auto;
+}
+
+.colors .main {
+    background: #11cfe7;
+}
+
+.green {
+    background: #07cb79;
+}
+
+.blue {
+    background: #004dda;
+}
+
+.orange {
+    background: #fa5b0f;
+}
+
+.navy {
+    background: #495d7f;
+}
+
+.yellow {
+    background: #ffea00;
+}
+
+.peach {
+    background: #fcab55;
+}
+
+.red {
+    background: #f30c0c;
+}
+
+.beige {
+    background: #bfa980;
+}
+
+.cyan {
+    background: #37b6bd;
+}
+
+.celadon {
+    background: #74aea1;
+}
+
+.brown {
+    background: #784e3d;
+}
+
+.cherry {
+    background: #911938;
+}
+
+.gray {
+    background: #555555;
+}
+
+.purple {
+    background: #8d31a9;
+}
+
+.olive {
+    background: #b3c211;
+}
+
+.colors li a.active {
+    box-shadow: 0 0 0 2px #fff inset
+}
+
+.colors li a {
+    border-radius: 3px;
+}
+
+#reset {
+    margin: -5px 0 15px 0px;
+}
+
+#reset a.button {
+    padding: 7px 14px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+#reset a.button:hover {
+    color: #333;
+    background-color: #fff;
+}
